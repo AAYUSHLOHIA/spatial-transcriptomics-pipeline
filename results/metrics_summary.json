@@ -1,0 +1,35 @@
+{
+  "solid": {
+    "fibrosis_encapsulation_index": 14.035,
+    "vascular_score": 5.718,
+    "vascular_to_fibrosis_ratio": 0.407,
+    "m2_to_m1_ratio": 0.645,
+    "max_infiltration_depth_um": 328.7,
+    "tissue_integration_score": 32.7,
+    "moran_i_Acta2": 0.316,
+    "moran_i_Vegfa": 0.018,
+    "moran_i_Arg1": -0.003
+  },
+  "microporous": {
+    "fibrosis_encapsulation_index": 10.066,
+    "vascular_score": 6.83,
+    "vascular_to_fibrosis_ratio": 0.679,
+    "m2_to_m1_ratio": 1.296,
+    "max_infiltration_depth_um": 611.2,
+    "tissue_integration_score": 57.2,
+    "moran_i_Acta2": 0.023,
+    "moran_i_Vegfa": 0.025,
+    "moran_i_Arg1": 0.13
+  },
+  "microgel": {
+    "fibrosis_encapsulation_index": 7.172,
+    "vascular_score": 11.942,
+    "vascular_to_fibrosis_ratio": 1.665,
+    "m2_to_m1_ratio": 2.411,
+    "max_infiltration_depth_um": 1000.0,
+    "tissue_integration_score": 94.6,
+    "moran_i_Acta2": 0.005,
+    "moran_i_Vegfa": 0.051,
+    "moran_i_Arg1": 0.172
+  }
+}

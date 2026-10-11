@@ -1,0 +1,16 @@
+{
+  "target_application": "dermal_wound_healing",
+  "recommended_microgel_diameter_um": 150.0,
+  "recommended_void_pore_size_um": 45.0,
+  "recommended_shear_modulus_kpa": 0.5,
+  "expected_capsule_thickness_um": 32.9,
+  "expected_infiltration_depth_um": 1161.2,
+  "expected_m2_m1_polarization_ratio": 2.55,
+  "bio_integration_score": 80.2,
+  "rational_design_rules": [
+    "1. Void Porosity Constraint: Maintain particle diameter >= 75 \u00b5m to yield interstitial pore sizes > 25 \u00b5m, which prevents physical exclusion of migrating endothelial cells (Vegfa/Pecam1).",
+    "2. Mechano-transduction Threshold: Keep hydrogel shear modulus <= 4.5 kPa to suppress YAP/TAZ activation and prevent Acta2+ myofibroblast differentiation and dense fibrotic capsule formation.",
+    "3. Surface Annealing Chemistry: Utilize biocompatible crosslinkers (e.g. Factor XIIIa or bio-orthogonal click tetrazine-TCO) that preserve cell adhesion ligand availability (RGD).",
+    "4. Dynamic Remodeling: Incorporate matrix metalloproteinase-cleavable peptides (MMP-sensitive) to synchronize microgel biodegradation with endogenous host ECM deposition."
+  ]
+}
